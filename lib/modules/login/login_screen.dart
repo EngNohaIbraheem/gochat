@@ -47,7 +47,7 @@ class _LoginScreenState extends BaseView<LoginScreen, LoginViewModel>
             elevation: 0.0,
             centerTitle: true,
             backgroundColor: Colors.transparent,
-            title: Text('Login'),
+            // title: Text('Login'),
           ),
           body: Padding(
             padding: EdgeInsets.all(12),

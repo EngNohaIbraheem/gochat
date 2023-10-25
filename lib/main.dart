@@ -22,9 +22,11 @@ class MyApp extends StatelessWidget {
     var provider = Provider.of<UserProvider>(context);
 
     return MaterialApp(
-      initialRoute: provider.userAuth == null
-          ? HomeScreen.routeName
-          : LoginScreen.routeName,
+      initialRoute:
+      // provider.userAuth == null
+          // ? HomeScreen.routeName
+          // :
+      LoginScreen.routeName,
       debugShowCheckedModeBanner: false,
       routes: {
         CreateAccountScreen.routeName: (context) => CreateAccountScreen(),

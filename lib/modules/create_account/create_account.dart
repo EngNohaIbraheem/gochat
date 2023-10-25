@@ -54,7 +54,7 @@ class _CreateAccountScreenState
               elevation: 0.0,
               centerTitle: true,
               backgroundColor: Colors.transparent,
-              title: Text('Create Account'),
+              // title: Text('Create Account'),
             ),
             body: Padding(
               padding: EdgeInsets.all(12),
